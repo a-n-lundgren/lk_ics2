@@ -41,6 +41,7 @@ async def async_setup(hass: HomeAssistant, config: Dict) -> bool:
 
 
 async def async_setup_entry(hass: HomeAssistantType, entry: ConfigEntry):
+  _LOGGER.debug("async_setup_entry called", host)
   return True
 
 async def async_unload_entry(hass, config_entry):
