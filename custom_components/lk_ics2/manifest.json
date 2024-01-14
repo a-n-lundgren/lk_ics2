@@ -2,8 +2,12 @@
     "domain": "lk_ics2",
     "name": "LK ICS.2 Room Temperature Control System",
     "version": "0.1.1",
-    "config_flow": false,    
+    "dependencies": ["modbus"],
+    "config_flow": false,
+    "integration_type": "hub",
+    "iot_class": "local_polling",
     "documentation": "https://github.com/a-n-lundgren/lk_ics2/",
+    "issue_tracker": "https://github.com/a-n-lundgren/lk_ics2/issues",
     "dependencies": [],
     "codeowners": ["a-n-lundgren"]
   }
