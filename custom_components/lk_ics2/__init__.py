@@ -37,6 +37,7 @@ _LOGGER = logging.getLogger(__name__)
 async def async_setup(hass: HomeAssistant, config: Dict) -> bool:
   """Set up the LK ICS.2 component."""
   hass.data.setdefault(DOMAIN, {})
+  _LOGGER.info("The 'LK ICS.2' component is ready!")
   return True
 
 
