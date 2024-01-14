@@ -1,4 +1,4 @@
-# LK ICS.2
+# LK ICS.2 Room Temperature Control System
 This is a Home Assistant custom component that communicates with the LK ICS.2 Room Temperature Control System using Modbus RS485/RTU.
 
 The flow will scan your ICS.2 system and discover control units and zones and add them in a hiearchy representing your system setup. The ICS.2 system supports up to eight control units with a maximum of eight room thermostats totaling 64 possible zones, or rooms.
